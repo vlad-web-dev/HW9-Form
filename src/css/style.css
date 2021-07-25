@@ -1,0 +1,15 @@
+.auth {
+    height: 100vh;
+}
+.auth-wrap {
+    width: 365px;
+    box-shadow: 1px 5px 17px 0 #5f5c5c;
+}
+.valid, .valid:focus{
+    border: 1px solid green;
+    color: green;
+}
+.invalid, .invalid:focus {
+    border: 1px solid red;
+    color: red;
+}
